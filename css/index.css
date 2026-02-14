@@ -111,7 +111,7 @@ body::after {
    ========================================= */
 .hero {
     height: 100vh;
-    background: url("../img/bg-campus.jpg") center / cover no-repeat;
+    background: url("../img/bg-admin.jpg") center / cover no-repeat;
     position: relative;
     display: flex;
     align-items: center;
@@ -318,3 +318,4 @@ body::after {
         padding: 18px 30px;
     }
 }
+
