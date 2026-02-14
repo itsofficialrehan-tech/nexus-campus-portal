@@ -48,9 +48,10 @@ window.addEventListener("load", () => {
 
 /* ---------- BACKGROUND SLIDER ---------- */
 const backgrounds = [
-    "../img/bg-campus.jpg",
-    "../img/bg-students.jpg",
-    "../img/bg-admin.jpg"
+    "img/bg-admin.jpg"
+    "img/bg-campus.jpg",
+    "img/bg-students.jpg",
+    
 ];
 
 let currentBgIndex = 0;
@@ -88,3 +89,4 @@ document.querySelectorAll("a, button").forEach(el => {
             "0 0 10px #00f6ff, 0 0 25px rgba(0,246,255,0.6)";
     });
 });
+
