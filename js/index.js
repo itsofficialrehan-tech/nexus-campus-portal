@@ -1,4 +1,3 @@
-
 const cursor = document.createElement("div");
 cursor.classList.add("cursor");
 document.body.appendChild(cursor);
@@ -48,10 +47,9 @@ window.addEventListener("load", () => {
 
 /* ---------- BACKGROUND SLIDER ---------- */
 const backgrounds = [
-    "img/bg-admin.jpg"
+    "img/bg-admin.jpg",
     "img/bg-campus.jpg",
-    "img/bg-students.jpg",
-    
+    "img/bg-students.jpg"
 ];
 
 let currentBgIndex = 0;
@@ -59,9 +57,10 @@ let currentBgIndex = 0;
 setInterval(() => {
     currentBgIndex = (currentBgIndex + 1) % backgrounds.length;
 
-    heroSection.style.transition = "background-image 1.5s ease-in-out";
-    heroSection.style.backgroundImage =
-        `url(${backgrounds[currentBgIndex]})`;
+    /* ✅ FIXED PART (ONLY THIS) */
+    heroSection.style.transition = "background 1.5s ease-in-out";
+    heroSection.style.background =
+        `url(${backgrounds[currentBgIndex]}) center / cover no-repeat`;
 
 }, 6000);
 
@@ -89,4 +88,3 @@ document.querySelectorAll("a, button").forEach(el => {
             "0 0 10px #00f6ff, 0 0 25px rgba(0,246,255,0.6)";
     });
 });
-
