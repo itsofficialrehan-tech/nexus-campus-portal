@@ -90,4 +90,25 @@ without requiring frontend changes.
 
 The project frontend is hosted using GitHub Pages.
 
-Live link:
+Live link:https://itsofficialrehan-tech.github.io/nexus-campus-portal/
+
+
+---
+
+## Hackathon Note
+
+This project was developed as part of an online hackathon.
+The focus is on frontend execution, system design, and scalability.
+Backend and authentication layers are planned and can be implemented
+in future iterations.
+
+---
+
+## Author
+
+Rehan Khan  
+Frontend Developer | Hackathon Participant
+
+---
+
+Designed to scale. Built to impress.
